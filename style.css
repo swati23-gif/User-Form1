@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Registrstion{
+
+    background: linear-gradient(#3931af,#00c6ff);
+    margin-top: -5%;
+    padding: 10%;
+    margin: 20px;
+}
+.Registrstion-left{
+    text-align: center;
+    color: #000;
+    margin-top: 10%;
+}
+.Registrstion-left img{
+    margin-top: -26%;
+    margin-bottom: 17%;
+    width: 29%;
+    -webkit-animation: mover 2s infinite alternate; 
+    animation: mover 1s infinite alternate;
+
+
+}
+@-webkit-keyframes mover{
+    0%{transform: translateY(0);}
+    100%{transform: translateY(-20px);}
+}
+@keyframes mover{
+    0%{transform: translateY(0);}
+    100%{transform: translateY(20px);}
+}
+.Registrstion-left p{
+    font-weight: lighter;
+  
+}
+.Registrstion-left input{
+    margin-top: 74%;
+}
+
+
+.Registrstion-left h2{
+    margin-top: 22px;
+}
+.Registrstion-left input{
+    border: none;
+    border-radius: 7px;
+    padding: 2px;
+    width: 60%;
+    background: #f8f9fa;
+    font-weight: bold;
+    margin-top: 20%;
+    margin-bottom: 3%;
+}
+.Registration-right{
+    background: #f8f9fa;
+    border-top-left-radius: 10% 51%;
+    border-bottom-left-radius: 12% 51%;
+}
+.Registration-right .reg-heading{
+
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: -4%;
+  color: #495051;
+
+  
+}
+.Registration-right .reg-form{
+    padding: 10%;
+    margin-top: 2%;
+
+}
+.form-group .form-control{
+    font-size: 13px;
+}
+.btnreg{
+    margin-top: 14%;
+  border: none;
+  border-radius: 4px;
+  padding: 2%;
+  background: #275fc8;
+  color: #f8f9fa;
+  font-weight: 702;
+  width: 118%;
+  margin-left: 446%;
+ 
+}
